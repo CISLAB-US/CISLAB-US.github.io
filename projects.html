@@ -18,186 +18,197 @@
 </head>
 
 <body>
+    <!-- Fixed Left Banner -->
+    <div class="left-banner"></div>
 
-    <header>
-        <div class="container">
-            <a href="about.html" class="site-branding">
-                <img src="assets/images/logos/CISL_Logo_Circle_Tranparent.png" alt="" class="site-icon">
-                <span class="site-title">Constrained Image-Synthesis Lab</span>
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="people.html">People</a></li>
-                    <li><a href="projects.html" class="active">Projects</a></li>
-                    <li><a href="research.html">Research Interests</a></li>
-                    <li><a href="opportunities.html">Opportunities</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <!-- Site Content Wrapper -->
+    <div class="site-wrapper">
+        <header>
+            <div class="container">
+                <a href="about.html" class="site-branding">
+                    <img src="assets/images/logos/CISL_Logo_Circle_Tranparent.png" alt="" class="site-icon">
+                    <span class="site-title">Constrained Image-Synthesis Lab</span>
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="people.html">People</a></li>
+                        <li><a href="projects.html" class="active">Projects</a></li>
+                        <li><a href="research.html">Research Interests</a></li>
+                        <li><a href="opportunities.html">Opportunities</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-    <!-- Hero Strip below header -->
-    <div class="hero-strip"></div>
+        <!-- Hero Strip below header -->
+        <div class="hero-strip"></div>
 
-    <main class="page-content">
-        <div class="container">
-            <h1 class="fade-in">Projects</h1>
+        <main class="page-content">
+            <div class="container">
+                <h1 class="fade-in">Projects</h1>
 
-            <!-- DMFP Umbrella -->
-            <section class="project-umbrella fade-in">
-                <div class="project-umbrella__header">
-                    <img src="assets/images/logos/Logo_DMFP_Prime.png" alt="DMFP" class="project-umbrella__logo">
-                    <div>
-                        <h2 class="project-umbrella__title">Diffusion Models for Flexible Packaging</h2>
-                        <p class="project-umbrella__subtitle">Our current research initiative exploring generative
-                            models for industrial design applications.</p>
+                <!-- DMFP Umbrella -->
+                <section class="project-umbrella fade-in">
+                    <div class="project-umbrella__header">
+                        <img src="assets/images/logos/Logo_DMFP_Prime.png" alt="DMFP" class="project-umbrella__logo">
+                        <div>
+                            <h2 class="project-umbrella__title">Diffusion Models for Flexible Packaging</h2>
+                            <p class="project-umbrella__subtitle">Our current research initiative exploring generative
+                                models for industrial design applications.</p>
+                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <p class="section-intro fade-in">
-                Under this umbrella, we are working on three sub-projects addressing physical and perceptual constraints
-                in print-ready image synthesis.
-            </p>
+                <p class="section-intro fade-in">
+                    Under this umbrella, we are working on three sub-projects addressing physical and perceptual
+                    constraints
+                    in print-ready image synthesis.
+                </p>
 
-            <!-- Sub-project 1: RobustSep -->
-            <article class="project fade-in">
-                <h3 class="project__title">RobustSep</h3>
-                <p class="project__subtitle">PPP-conditioned RGB to CMYK separation with constraint refinement</p>
+                <!-- Sub-project 1: RobustSep -->
+                <article class="project fade-in">
+                    <h3 class="project__title">RobustSep</h3>
+                    <p class="project__subtitle">PPP-conditioned RGB to CMYK separation with constraint refinement</p>
 
-                <div class="project__section">
-                    <div class="project__section-title">Problem</div>
-                    <p>Separation is conditioned on a Process-and-Press Prior (PPP) and refined through explicit
-                        constraints rather than treated as unconstrained translation.</p>
-                </div>
-
-                <div class="project__section">
-                    <div class="project__section-title">Constraints Enforced</div>
-                    <p>Conservative ink-limit logic (TAC and per-channel caps), overprint sanity, neutral/dark
-                        stability, separation regularity.</p>
-                </div>
-
-                <div class="project__section">
-                    <div class="project__section-title">Method</div>
-                    <p>Patch-aware (16×16), proposes multiple candidates per patch, applies robustness checks under
-                        parametric perturbations (tone curves, ink strength). Outputs CMYK result and concise
-                        decision report (risk flags and constraint tightness).</p>
-                </div>
-
-                <div class="project__section">
-                    <div class="project__section-title">Evaluation</div>
-                    <p>TAC violation rate, per-channel cap adherence, overprint stability, neutral preservation
-                        (ΔE), robustness score under PPP perturbations.</p>
-                </div>
-
-                <div class="bibtex bibtex--private">
-                    <div class="bibtex__header">
-                        <span class="bibtex__label">Citation</span>
+                    <div class="project__section">
+                        <div class="project__section-title">Problem</div>
+                        <p>Separation is conditioned on a Process-and-Press Prior (PPP) and refined through explicit
+                            constraints rather than treated as unconstrained translation.</p>
                     </div>
-                    <p class="bibtex__notice">Retained for private usage. Will be published after redaction.</p>
-                </div>
-            </article>
 
-            <!-- Sub-project 2: Deep RL Halftoning -->
-            <article class="project fade-in">
-                <h3 class="project__title">Deep Reinforcement Learning Halftoning</h3>
-                <p class="project__subtitle">Halftoning under print constraints via deep reinforcement learning</p>
+                    <div class="project__section">
+                        <div class="project__section-title">Constraints Enforced</div>
+                        <p>Conservative ink-limit logic (TAC and per-channel caps), overprint sanity, neutral/dark
+                            stability, separation regularity.</p>
+                    </div>
 
-                <div class="project__section">
-                    <div class="project__section-title">Problem</div>
-                    <p>Halftoning framed as constrained optimization with deep reinforcement learning as comparator to
-                        classical baselines.
+                    <div class="project__section">
+                        <div class="project__section-title">Method</div>
+                        <p>Patch-aware (16×16), proposes multiple candidates per patch, applies robustness checks under
+                            parametric perturbations (tone curves, ink strength). Outputs CMYK result and concise
+                            decision report (risk flags and constraint tightness).</p>
+                    </div>
+
+                    <div class="project__section">
+                        <div class="project__section-title">Evaluation</div>
+                        <p>TAC violation rate, per-channel cap adherence, overprint stability, neutral preservation
+                            (ΔE), robustness score under PPP perturbations.</p>
+                    </div>
+
+                    <div class="bibtex bibtex--private">
+                        <div class="bibtex__header">
+                            <span class="bibtex__label">Citation</span>
+                        </div>
+                        <p class="bibtex__notice">Retained for private usage. Will be published after redaction.</p>
+                    </div>
+                </article>
+
+                <!-- Sub-project 2: Deep RL Halftoning -->
+                <article class="project fade-in">
+                    <h3 class="project__title">Deep Reinforcement Learning Halftoning</h3>
+                    <p class="project__subtitle">Halftoning under print constraints via deep reinforcement learning</p>
+
+                    <div class="project__section">
+                        <div class="project__section-title">Problem</div>
+                        <p>Halftoning framed as constrained optimization with deep reinforcement learning as comparator
+                            to
+                            classical baselines.
+                        </p>
+                    </div>
+
+                    <div class="project__section">
+                        <div class="project__section-title">Constraints Enforced</div>
+                        <p>Per-channel frequency bounds, dot gain limits, moiré avoidance, local tone linearity.</p>
+                    </div>
+
+                    <div class="project__section">
+                        <div class="project__section-title">Baselines</div>
+                        <p>JJN error diffusion, void-and-cluster blue-noise ordered dithering, Direct Binary Search.</p>
+                    </div>
+
+                    <div class="project__section">
+                        <div class="project__section-title">Evaluation</div>
+                        <p>Constraint pass rate, robustness under gain variation, perceptual similarity (SSIM, LPIPS),
+                            per-channel frequency analysis.</p>
+                    </div>
+
+                    <div class="bibtex bibtex--private">
+                        <div class="bibtex__header">
+                            <span class="bibtex__label">Citation</span>
+                        </div>
+                        <p class="bibtex__notice">Retained for private usage. Will be published after redaction.</p>
+                    </div>
+                </article>
+
+                <!-- Sub-project 3: Colour Perception Preservation -->
+                <article class="project fade-in">
+                    <h3 class="project__title">Colour Perception Preservation Under Stochastic Generative Processes</h3>
+                    <p class="project__subtitle">Inference-time constraint enforcement for perceptual colour fidelity
                     </p>
-                </div>
 
-                <div class="project__section">
-                    <div class="project__section-title">Constraints Enforced</div>
-                    <p>Per-channel frequency bounds, dot gain limits, moiré avoidance, local tone linearity.</p>
-                </div>
-
-                <div class="project__section">
-                    <div class="project__section-title">Baselines</div>
-                    <p>JJN error diffusion, void-and-cluster blue-noise ordered dithering, Direct Binary Search.</p>
-                </div>
-
-                <div class="project__section">
-                    <div class="project__section-title">Evaluation</div>
-                    <p>Constraint pass rate, robustness under gain variation, perceptual similarity (SSIM, LPIPS),
-                        per-channel frequency analysis.</p>
-                </div>
-
-                <div class="bibtex bibtex--private">
-                    <div class="bibtex__header">
-                        <span class="bibtex__label">Citation</span>
+                    <div class="project__section">
+                        <div class="project__section-title">Problem</div>
+                        <p>Maintaining perceptual colour fidelity when generative processes introduce stochastic
+                            variations
+                            that can drift from intended colour specifications.</p>
                     </div>
-                    <p class="bibtex__notice">Retained for private usage. Will be published after redaction.</p>
-                </div>
-            </article>
 
-            <!-- Sub-project 3: Colour Perception Preservation -->
-            <article class="project fade-in">
-                <h3 class="project__title">Colour Perception Preservation Under Stochastic Generative Processes</h3>
-                <p class="project__subtitle">Inference-time constraint enforcement for perceptual colour fidelity</p>
-
-                <div class="project__section">
-                    <div class="project__section-title">Problem</div>
-                    <p>Maintaining perceptual colour fidelity when generative processes introduce stochastic variations
-                        that can drift from intended colour specifications.</p>
-                </div>
-
-                <div class="project__section">
-                    <div class="project__section-title">Constraints Enforced</div>
-                    <p>Perceptual colour drift bounds (ΔE metrics), region-specific preservation, semantic colour
-                        consistency across generated outputs.</p>
-                </div>
-
-                <div class="project__section">
-                    <div class="project__section-title">Method</div>
-                    <p>Inference-time losses and regularizers with explicit monitoring of colour drift and perceptual
-                        reconstruction error.</p>
-                </div>
-
-                <div class="project__section">
-                    <div class="project__section-title">Evaluation</div>
-                    <p>Perceptual colour drift (ΔE), region preservation metrics, semantic consistency scores,
-                        constraint violation frequency.</p>
-                </div>
-
-                <div class="bibtex bibtex--preprint">
-                    <div class="bibtex__header">
-                        <span class="bibtex__label">Cite this work</span>
-                        <span class="bibtex__status">Pre-print · Not yet published</span>
+                    <div class="project__section">
+                        <div class="project__section-title">Constraints Enforced</div>
+                        <p>Perceptual colour drift bounds (ΔE metrics), region-specific preservation, semantic colour
+                            consistency across generated outputs.</p>
                     </div>
-                    <pre><code>@article{colourperception2025,
+
+                    <div class="project__section">
+                        <div class="project__section-title">Method</div>
+                        <p>Inference-time losses and regularizers with explicit monitoring of colour drift and
+                            perceptual
+                            reconstruction error.</p>
+                    </div>
+
+                    <div class="project__section">
+                        <div class="project__section-title">Evaluation</div>
+                        <p>Perceptual colour drift (ΔE), region preservation metrics, semantic consistency scores,
+                            constraint violation frequency.</p>
+                    </div>
+
+                    <div class="bibtex bibtex--preprint">
+                        <div class="bibtex__header">
+                            <span class="bibtex__label">Cite this work</span>
+                            <span class="bibtex__status">Pre-print · Not yet published</span>
+                        </div>
+                        <pre><code>@article{colourperception2025,
   title={Colour Perception Preservation Under Stochastic Generative Processes},
   author={Ahuja, Angad Singh and Patel, Poorva and Anandh, Aarush Ram},
   journal={arXiv preprint},
   year={2025},
   note={Pre-print, under review}
 }</code></pre>
-                </div>
-            </article>
+                    </div>
+                </article>
 
-        </div>
-    </main>
+            </div>
+        </main>
 
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-info">
-                    <p>© 2025 Constrained Image-Synthesis Lab</p>
-                    <p>
-                        <a href="https://www.linkedin.com/company/ci-s-lab/" target="_blank" rel="noopener">LinkedIn</a>
-                        <span style="margin: 0 0.5rem; opacity: 0.5;">·</span>
-                        <a href="contact.html">Contact</a>
-                    </p>
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-info">
+                        <p>© 2025 Constrained Image-Synthesis Lab</p>
+                        <p>
+                            <a href="https://www.linkedin.com/company/ci-s-lab/" target="_blank"
+                                rel="noopener">LinkedIn</a>
+                            <span style="margin: 0 0.5rem; opacity: 0.5;">·</span>
+                            <a href="contact.html">Contact</a>
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-    <script src="scripts/main.js"></script>
+        <script src="scripts/main.js"></script>
+    </div>
 </body>
 
 </html>
