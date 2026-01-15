@@ -1,0 +1,11 @@
+# CISL Website - Robots.txt
+# Allow all search engines to crawl all pages
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://cislab-us.github.io/sitemap.xml
+
+# Disallow admin panel from indexing
+Disallow: /admin/
