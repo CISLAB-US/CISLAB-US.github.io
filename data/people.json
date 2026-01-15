@@ -85,6 +85,18 @@
             "name": "Parth Darshan",
             "photo": "assets/images/headshots/ParthDarshan_HeadShot_Alum.png",
             "keywords": "IIT Jodhpur · Colour Perception Preservation"
+        },
+        {
+            "id": "alumni-4",
+            "name": "Rishi Kewalya",
+            "photo": "assets/images/people/rishi_kewalya.png",
+            "keywords": "Thadomal Shahani Engineering College · RobustSep"
+        },
+        {
+            "id": "alumni-5",
+            "name": "Tejaswini Samanta",
+            "photo": "assets/images/people/tejaswini_samanta.png",
+            "keywords": "Miranda House, DU · In-painting based Generative Image-Synthesis"
         }
     ]
 }
