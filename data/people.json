@@ -11,7 +11,7 @@
         {
             "id": "lead-1",
             "name": "Angad Singh Ahuja",
-            "photo": "assets/images/headshots/AngadAhuja_HeadShot.jpeg",
+            "photo": "assets/images/headshots/AngadAhuja_HeadShot.png",
             "role": "Research Lead",
             "keywords": "RobustSep",
             "links": {}
@@ -57,7 +57,7 @@
         {
             "id": "fellow-7",
             "name": "Shreeya Srivastava",
-            "photo": "assets/images/headshots/ShreeyaSrivastava_HeadShot.jpg",
+            "photo": "assets/images/headshots/ShreeyaSrivastava_HeadShot.png",
             "keywords": "Manipal Institute of Technology · RobustSep"
         },
         {
