@@ -79,6 +79,12 @@
             "name": "Abhipsa Srivastava",
             "photo": "assets/images/headshots/Abhipsa_HeadShot_Alum.png",
             "keywords": "Dr. APJ Abdul Kalam Technical University · In-painting based Generative Image-Synthesis"
+        },
+        {
+            "id": "alumni-3",
+            "name": "Parth Darshan",
+            "photo": "assets/images/headshots/ParthDarshan_HeadShot_Alum.png",
+            "keywords": "IIT Jodhpur · Colour Perception Preservation"
         }
     ]
 }
