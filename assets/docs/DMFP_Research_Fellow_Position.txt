@@ -1,0 +1,39 @@
+About: We are a team of researchers working to build a generative modelling pipeline for design. This project explores diffusion/GAN architectures, raster→vector/hybrid image conversion, and prototyping with the eventual goal of using image-generative models to model industrial and consumer design practices. We are now opening inductions to anyone who finds this project interesting and is excited to collaborate and learn! For more details, please read below!
+
+Preferred background: CS/ML/AI/Math; Advanced UGs and higher preferred! General familiarity with basic ML theory is expected. Familiarity with image-generation, conversion, or compression algorithms would be exceptional (although not necessary). Python + PyTorch/TensorFlow is a plus (we'll support skill-building).
+
+The field seems a little niche, but the team will help you learn in whatever manner we can (it was and is a learning process for us too!), so please don't hesitate to apply.
+
+We are expecting a commitment of around 8–14 hrs/week, perhaps one weekly meeting + 1–2 additional syncs as needed.
+
+What you'll gain from this (non-monetary): hands-on modelling, industry-aligned problem-solving, lots of reading and brainstorming, potential authorship, and portfolio-worthy work.
+
+---
+
+SCREENING QUESTIONS
+
+Must-have qualifications:
+
+1. We must fill this position urgently. Can you start immediately?
+   Ideal answer: Yes
+
+2. Have you completed the following level of education: Bachelor's Degree?
+   Ideal answer: Yes
+
+3. What is your level of proficiency in English?
+   Ideal answer: Professional
+
+4. If you haven't completed your bachelor's, which year are you in currently?
+   Ideal answer: 4
+
+5. Do you have experience with any of the following? (PyTorch, TensorFlow, Stable Diffusion / Hugging Face Diffusers, OpenCV) (Non-prerequisite)
+   Ideal answer: Yes
+
+6. Are you comfortable working in a remote setting, and do you understand that this is an unpaid position?
+   Ideal answer: Yes
+
+7. Do you often find yourself glancing through AI/ML/DL research papers?
+   Ideal answer: Yes
+
+8. How many hours per week can you contribute to this project?
+   Ideal answer: 10
