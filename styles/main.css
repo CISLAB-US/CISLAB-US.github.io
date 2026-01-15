@@ -1,39 +1,39 @@
 /* CISL Website - Academic Design System */
-/* Colors derived from watercolor accent banner: Teal, Plum, Sage, Violet */
+/* Colors derived from watercolor accent banner: Lavender, Peach, Sky Blue */
 
 /* ========== CSS Custom Properties ========== */
 :root {
-  /* Colors - Watercolor Banner Theme */
-  --color-bg-body: #f5f7f5;
-  --color-bg-header: #2d4a5a;
-  --color-bg-footer: #2d4a5a;
-  --color-bg-section-alt: #e8ede8;
+  /* Colors - Soft Pastel Banner Theme */
+  --color-bg-body: #faf9f8;
+  --color-bg-header: #6070a0;
+  --color-bg-footer: #6070a0;
+  --color-bg-section-alt: #f5f3f0;
 
-  --color-text-primary: #1a2a2a;
-  --color-text-secondary: #4a5a5a;
-  --color-text-muted: #6a7a7a;
-  --color-text-inverse: #f5f7f5;
+  --color-text-primary: #2a2530;
+  --color-text-secondary: #5a5060;
+  --color-text-muted: #7a7085;
+  --color-text-inverse: #faf9f8;
 
-  --color-border: #b5c5c5;
-  --color-border-light: #d5e0d8;
-  --color-accent: #2d4a5a;
-  --color-accent-hover: #3d5a6a;
-  --color-accent-light: #4a6a7a;
+  --color-border: #d5d0e0;
+  --color-border-light: #e8e5f0;
+  --color-accent: #6070a0;
+  --color-accent-hover: #7080b0;
+  --color-accent-light: #8090c0;
 
-  /* Accent Colors from Banner */
-  --color-plum: #7a5a6a;
-  --color-plum-light: #9a7a8a;
-  --color-sage: #5a7a6a;
-  --color-sage-light: #7a9a8a;
-  --color-violet: #5a5a7a;
-  --color-violet-light: #7a7a9a;
-  --color-slate: #3a4a5a;
-  --color-slate-light: #5a6a7a;
+  /* Accent Colors from New Banner */
+  --color-lavender: #a090c0;
+  --color-lavender-light: #c0b0d8;
+  --color-peach: #e8a080;
+  --color-peach-light: #f0c0a0;
+  --color-sky: #90b0d0;
+  --color-sky-light: #b0d0e8;
+  --color-cream: #f0e8e0;
+  --color-cream-light: #f8f5f0;
 
   /* Constraint Theme Colors (banner-matched) */
-  --color-theme-physical: #7a5a6a;
-  --color-theme-semantic: #5a7a6a;
-  --color-theme-safety: #5a5a7a;
+  --color-theme-physical: #e8a080;
+  --color-theme-semantic: #90b0d0;
+  --color-theme-safety: #a090c0;
 
   /* Typography */
   --font-serif: 'Source Serif Pro', 'Georgia', 'Times New Roman', serif;
@@ -242,7 +242,7 @@ nav a.active {
 /* ========== Footer with Banner Background ========== */
 footer {
   position: relative;
-  background: url('../assets/images/banners/Accent_Banner_CISL.png') center/cover no-repeat;
+  background: url('../assets/images/banners/Accent_Banner_CISL_3.png') center/cover no-repeat;
   padding: var(--space-2xl) 0;
   margin-top: var(--space-3xl);
 }
@@ -254,7 +254,7 @@ footer::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(45, 74, 90, 0.92) 0%, rgba(58, 74, 90, 0.95) 100%);
+  background: linear-gradient(135deg, rgba(96, 112, 160, 0.92) 0%, rgba(96, 112, 160, 0.95) 100%);
   z-index: 0;
 }
 
@@ -1001,7 +1001,7 @@ footer a:hover {
 .hero-strip {
   position: relative;
   height: 80px;
-  background: url('../assets/images/banners/Accent_Banner_CISL.png') center/cover no-repeat;
+  background: url('../assets/images/banners/Accent_Banner_CISL_3.png') center/cover no-repeat;
   margin-bottom: var(--space-xl);
 }
 
@@ -1020,7 +1020,7 @@ footer a:hover {
   position: relative;
   height: 4px;
   border: none;
-  background: url('../assets/images/banners/Accent_Banner_CISL.png') center/cover no-repeat;
+  background: url('../assets/images/banners/Accent_Banner_CISL_3.png') center/cover no-repeat;
   margin: var(--space-2xl) 0;
   opacity: 0.6;
 }
@@ -1034,9 +1034,9 @@ footer a:hover {
 .section-divider--gradient {
   height: 2px;
   background: linear-gradient(90deg,
-      var(--color-sage) 0%,
-      var(--color-violet) 50%,
-      var(--color-plum) 100%);
+      var(--color-sky) 0%,
+      var(--color-lavender) 50%,
+      var(--color-peach) 100%);
   opacity: 1;
 }
 
@@ -1053,7 +1053,7 @@ footer a:hover {
   left: 0;
   width: 40px;
   height: 40px;
-  background: url('../assets/images/banners/Accent_Banner_CISL.png') top left/200px no-repeat;
+  background: url('../assets/images/banners/Accent_Banner_CISL_3.png') top left/200px no-repeat;
   opacity: 0.4;
   clip-path: polygon(0 0, 100% 0, 0 100%);
 }
@@ -1065,7 +1065,7 @@ footer a:hover {
   right: 0;
   width: 40px;
   height: 40px;
-  background: url('../assets/images/banners/Accent_Banner_CISL.png') bottom right/200px no-repeat;
+  background: url('../assets/images/banners/Accent_Banner_CISL_3.png') bottom right/200px no-repeat;
   opacity: 0.4;
   clip-path: polygon(100% 0, 100% 100%, 0 100%);
 }
@@ -1081,7 +1081,7 @@ footer a:hover {
 /* ========== Sidebar with Banner Background ========== */
 .sidebar-banner {
   position: relative;
-  background: url('../assets/images/banners/Accent_Banner_CISL.png') center/cover no-repeat;
+  background: url('../assets/images/banners/Accent_Banner_CISL_3.png') center/cover no-repeat;
   border-radius: var(--border-radius);
   overflow: hidden;
 }
@@ -1103,7 +1103,7 @@ footer a:hover {
 
 /* News ticker with subtle banner background */
 .news-ticker--banner {
-  background: url('../assets/images/banners/Accent_Banner_CISL.png') center/cover no-repeat;
+  background: url('../assets/images/banners/Accent_Banner_CISL_3.png') center/cover no-repeat;
 }
 
 .news-ticker--banner::before {
@@ -1152,7 +1152,7 @@ footer a:hover {
   position: relative;
   padding: var(--space-2xl) 0;
   margin-bottom: var(--space-xl);
-  background: url('../assets/images/banners/Accent_Banner_CISL.png') center/cover no-repeat;
+  background: url('../assets/images/banners/Accent_Banner_CISL_3.png') center/cover no-repeat;
   border-radius: var(--border-radius);
 }
 
