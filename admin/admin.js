@@ -122,7 +122,8 @@ async function fetchFileContent(filename) {
     if (!response.ok) throw new Error(`Failed to fetch ${filename}`);
 
     const data = await response.json();
-    const content = atob(data.content);
+    // Properly decode base64 as UTF-8 (atob only handles Latin-1, causing corruption of Unicode chars like ·)
+    const content = decodeURIComponent(escape(atob(data.content)));
     return { content: JSON.parse(content), sha: data.sha };
 }
 
