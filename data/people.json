@@ -1,20 +1,18 @@
 {
   "leads": [
     {
-      "id": "lead-2",
-      "name": "Poorva Patel",
-      "photo": "assets/images/headshots/PoorvaPatel_HeadShot.jpeg",
-      "role": "Research Lead",
-      "keywords": "Deep Reinforcement Learning Halftoning, Colour Perception Preservation",
-      "links": {}
-    },
-    {
       "id": "lead-1",
       "name": "Angad Singh Ahuja",
       "photo": "assets/images/headshots/AngadAhuja_HeadShot.png",
       "role": "Research Lead",
       "keywords": "RobustSep",
       "links": {}
+    },
+    {
+      "id": "lead-2",
+      "name": "Poorva Patel",
+      "photo": "assets/images/headshots/PoorvaPatel_HeadShot.jpeg",
+      "keywords": "Deep Reinforcement Learning Halftoning, Colour Perception Preservation"
     }
   ],
   "fellows": [
