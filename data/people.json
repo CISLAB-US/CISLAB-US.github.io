@@ -18,7 +18,8 @@
       "id": "fellow-1",
       "name": "Aarush Ram Anandh",
       "photo": "assets/images/headshots/AarushRamAnandh_HeadShot.jpeg",
-      "keywords": "Ashoka University · Colour Perception Preservation"
+      "keywords": "Ashoka University · Colour Perception Preservation",
+      "_subType": "fellow"
     },
     {
       "id": "fellow-3",
@@ -37,12 +38,6 @@
       "name": "Rushabh Lodha",
       "photo": "assets/images/headshots/RushabhLodha_HeadShot.png",
       "keywords": "IIT, Mandi · RobustSep"
-    },
-    {
-      "id": "fellow-6",
-      "name": "Soumi Pal",
-      "photo": "assets/images/headshots/SoumiPal_HeadShot.png",
-      "keywords": "BITS, Mesra · Deep RL Halftoning"
     },
     {
       "id": "fellow-7",
@@ -67,6 +62,12 @@
       "name": "Ananya Das",
       "photo": "assets/images/headshots/AnanyaDas_HeadShot.jpg",
       "keywords": "Manipal University, Jaipur · Deep RL Halftoning"
+    },
+    {
+      "id": "fellow-6",
+      "name": "Soumi Pal",
+      "photo": "assets/images/headshots/SoumiPal_HeadShot.png",
+      "keywords": "BITS, Mesra · Deep-RL Halftoning"
     }
   ],
   "alumni": [
@@ -92,7 +93,8 @@
       "id": "alumni-4",
       "name": "Rishi Kewalya",
       "photo": "assets/images/headshots/RishiKewalya_HeadShot_Alum.png",
-      "keywords": "Thadomal Shahani Engineering College · RobustSep"
+      "keywords": "Thadomal Shahani Engineering College · RobustSep",
+      "_subType": "alumni"
     },
     {
       "id": "alumni-5",
