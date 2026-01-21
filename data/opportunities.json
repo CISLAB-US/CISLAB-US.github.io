@@ -2,7 +2,7 @@
   {
     "id": "opp-1",
     "title": "Research Fellow — DMFP Project",
-    "status": "closed",
+    "status": "open",
     "description": "The DMFP (Diffusion Modelling for Print) project is developing a generative modelling pipeline for industrial and consumer design applications. Our research explores diffusion and GAN architectures, raster-to-vector conversion techniques, and hybrid image representations — with the goal of creating physically-constrained image synthesis systems suitable for professional design workflows.",
     "background": "We welcome applicants with backgrounds in Computer Science, Machine Learning, Artificial Intelligence, or Mathematics. Advanced undergraduates (final year) and postgraduate students are preferred. Candidates should have foundational knowledge of machine learning theory. Experience with image generation, conversion, or compression algorithms is advantageous but not required. Proficiency in Python with PyTorch or TensorFlow is beneficial — we provide mentorship for skill development.",
     "commitment": "Approximately 8–14 hours per week, including one weekly team meeting and 1–2 additional synchronisation calls as required.",
