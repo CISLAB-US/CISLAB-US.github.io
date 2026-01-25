@@ -1,28 +1,28 @@
 [
-    {
-        "id": "opp-1",
-        "title": "Research Fellow — DMFP Project",
-        "status": "open",
-        "description": "The DMFP (Diffusion Modelling for Print) project is developing a generative modelling pipeline for industrial and consumer design applications. Our research explores diffusion and GAN architectures, raster-to-vector conversion techniques, and hybrid image representations — with the goal of creating physically-constrained image synthesis systems suitable for professional design workflows.",
-        "background": "We welcome applicants with backgrounds in Computer Science, Machine Learning, Artificial Intelligence, or Mathematics. Advanced undergraduates (final year) and postgraduate students are preferred. Candidates should have foundational knowledge of machine learning theory. Experience with image generation, conversion, or compression algorithms is advantageous but not required. Proficiency in Python with PyTorch or TensorFlow is beneficial — we provide mentorship for skill development.",
-        "commitment": "Approximately 8–14 hours per week, including one weekly team meeting and 1–2 additional synchronisation calls as required.",
-        "benefits": [
-            "Practical experience with state-of-the-art generative models",
-            "Exposure to industry-aligned research challenges",
-            "Collaborative reading groups and technical discussions",
-            "Potential co-authorship on publications",
-            "Portfolio-quality research contributions"
-        ],
-        "screeningQuestions": [
-            "We must fill this position urgently. Can you start immediately?",
-            "Have you completed the following level of education: Bachelor's Degree?",
-            "What is your level of proficiency in English?",
-            "If you haven't completed your bachelor's, which year are you in currently?",
-            "Do you have experience with any of the following? (PyTorch, TensorFlow, Stable Diffusion / Hugging Face Diffusers, OpenCV) (Non-prerequisite)",
-            "Are you comfortable working in a remote setting, and do you understand that this is an unpaid research position?",
-            "Do you regularly engage with AI/ML/DL research literature?",
-            "How many hours per week can you contribute to this project?"
-        ],
-        "downloadFile": "assets/docs/JobDecription_RA_DMFP.pdf"
-    }
+  {
+    "id": "opp-1",
+    "title": "Research Fellow — DMFP Project",
+    "status": "open",
+    "description": "The DMFP (Diffusion Modelling for Print) project is developing a generative modelling pipeline for industrial and consumer design applications. Our research explores diffusion and GAN architectures, raster-to-vector conversion techniques, and hybrid image representations — with the goal of creating physically-constrained image synthesis systems suitable for professional design workflows.",
+    "background": "We welcome applicants with backgrounds in Computer Science, Machine Learning, Artificial Intelligence, or Mathematics. Advanced undergraduates (final year) and postgraduate students are preferred. Candidates should have foundational knowledge of machine learning theory. Experience with image generation, conversion, or compression algorithms is advantageous but not required. Proficiency in Python with PyTorch or TensorFlow is beneficial — we provide mentorship for skill development.",
+    "commitment": "Approximately 8–14 hours per week, including one weekly team meeting and 1–2 additional synchronisation calls as required.",
+    "benefits": [
+      "Practical experience with state-of-the-art generative models",
+      "Exposure to industry-aligned research challenges",
+      "Collaborative reading groups and technical discussions",
+      "Potential co-authorship on publications",
+      "Portfolio-quality research contributions"
+    ],
+    "screeningQuestions": [
+      "We must fill this position urgently. Can you start immediately?",
+      "Have you completed the following level of education: Bachelor's Degree?",
+      "What is your level of proficiency in English?",
+      "If you haven't completed your bachelor's, which year are you in currently?",
+      "Do you have experience with any of the following? (PyTorch, TensorFlow, Stable Diffusion / Hugging Face Diffusers, OpenCV) (Non-prerequisite)",
+      "Are you comfortable working in a remote setting, and do you understand that this is an unpaid research position?",
+      "Do you regularly engage with AI/ML/DL research literature?",
+      "How many hours per week can you contribute to this project?"
+    ],
+    "downloadFile": "assets/docs/JobDecription_RA_DMFP.pdf"
+  }
 ]

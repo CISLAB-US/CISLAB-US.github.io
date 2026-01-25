@@ -1,16 +1,16 @@
 {
   "leads": [
     {
-      "id": "lead-2",
-      "name": "Poorva Patel",
-      "photo": "assets/images/headshots/PoorvaPatel_HeadShot.jpeg",
-      "keywords": "Deep Reinforcement Learning Halftoning, Colour Perception Preservation"
-    },
-    {
       "id": "lead-1",
       "name": "Angad Singh Ahuja",
       "photo": "assets/images/headshots/AngadAhuja_HeadShot.png",
-      "keywords": "RobustSep "
+      "keywords": "RobustSep, Colour Perception Preservation"
+    },
+    {
+      "id": "lead-2",
+      "name": "Poorva Patel",
+      "photo": "assets/images/headshots/PoorvaPatel_HeadShot.jpeg",
+      "keywords": "Deep-RL Halftoning, Colour Perception Preservation"
     }
   ],
   "fellows": [
@@ -18,7 +18,8 @@
       "id": "fellow-1",
       "name": "Aarush Ram Anandh",
       "photo": "assets/images/headshots/AarushRamAnandh_HeadShot.jpeg",
-      "keywords": "Ashoka University · Colour Perception Preservation"
+      "keywords": "Ashoka University · Colour Perception Preservation",
+      "_subType": "fellow"
     },
     {
       "id": "fellow-3",
@@ -27,22 +28,10 @@
       "keywords": "Miranda House, DU · RobustSep"
     },
     {
-      "id": "fellow-4",
-      "name": "Yashvi Prem",
-      "photo": "assets/images/headshots/YashviPrem_HeadShot.png",
-      "keywords": "Miranda House, DU · Deep RL Halftoning"
-    },
-    {
       "id": "fellow-5",
       "name": "Rushabh Lodha",
       "photo": "assets/images/headshots/RushabhLodha_HeadShot.png",
       "keywords": "IIT, Mandi · RobustSep"
-    },
-    {
-      "id": "fellow-6",
-      "name": "Soumi Pal",
-      "photo": "assets/images/headshots/SoumiPal_HeadShot.png",
-      "keywords": "BITS, Mesra · Deep RL Halftoning"
     },
     {
       "id": "fellow-7",
@@ -57,16 +46,28 @@
       "keywords": "VIT, Pune · RobustSep"
     },
     {
+      "id": "fellow-6",
+      "name": "Soumi Pal",
+      "photo": "assets/images/headshots/SoumiPal_HeadShot.png",
+      "keywords": "BITS, Mesra · Deep-RL Halftoning"
+    },
+    {
       "id": "fellow-2",
       "name": "Sahilpreet Kaur",
       "photo": "assets/images/headshots/SahilpreetKaurGill_Headshot.png",
-      "keywords": "Miranda House, DU · Deep RL Halftoning"
+      "keywords": "Miranda House, DU · Deep-RL Halftoning"
+    },
+    {
+      "id": "fellow-4",
+      "name": "Yashvi Prem",
+      "photo": "assets/images/headshots/YashviPrem_HeadShot.png",
+      "keywords": "Miranda House, DU · Deep-RL Halftoning"
     },
     {
       "id": "fellow-9",
       "name": "Ananya Das",
       "photo": "assets/images/headshots/AnanyaDas_HeadShot.jpg",
-      "keywords": "Manipal University, Jaipur · Deep RL Halftoning"
+      "keywords": "Manipal University, Jaipur · Deep-RL Halftoning"
     }
   ],
   "alumni": [
@@ -92,7 +93,8 @@
       "id": "alumni-4",
       "name": "Rishi Kewalya",
       "photo": "assets/images/headshots/RishiKewalya_HeadShot_Alum.png",
-      "keywords": "Thadomal Shahani Engineering College · RobustSep"
+      "keywords": "Thadomal Shahani Engineering College · RobustSep",
+      "_subType": "alumni"
     },
     {
       "id": "alumni-5",

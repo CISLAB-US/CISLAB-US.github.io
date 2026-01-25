@@ -1,38 +1,38 @@
 [
-    {
-        "id": "project-1",
-        "title": "DMFP — Diffusion Models for Flexible Packaging",
-        "status": "active",
-        "description": "Building latent diffusion pipelines that encode physical print constraints—ink coverage, halftone frequencies, substrate limits—directly into the generative process, targeting production-ready artwork for flexible packaging.",
-        "keywords": [
-            "Latent Diffusion",
-            "Print Constraints",
-            "Flexible Packaging",
-            "CMYK Workflow"
-        ]
-    },
-    {
-        "id": "project-2",
-        "title": "RobustSep — Physically-Accurate Colour Separation",
-        "status": "active",
-        "description": "A modular RGB→CMYK+ separation pipeline using learned ink models and spectral prediction. Handles extended gamuts, spot colours, and substrate-specific tuning while maintaining perceptual fidelity.",
-        "keywords": [
-            "Colour Separation",
-            "Spectral Prediction",
-            "Ink Modelling",
-            "Prepress Automation"
-        ]
-    },
-    {
-        "id": "project-3",
-        "title": "Deep RL Halftoning",
-        "status": "exploratory",
-        "description": "Investigating reinforcement learning approaches to adaptive halftoning that optimise dot placement for perceptual quality under varying substrate and ink constraints.",
-        "keywords": [
-            "Reinforcement Learning",
-            "Halftoning",
-            "Perceptual Quality",
-            "Adaptive Screening"
-        ]
-    }
+  {
+    "id": "project-1",
+    "title": "DMFP — Diffusion Models for Flexible Packaging",
+    "status": "active",
+    "description": "Building latent diffusion pipelines that encode physical print constraints—ink coverage, halftone frequencies, substrate limits—directly into the generative process, targeting production-ready artwork for flexible packaging.",
+    "keywords": [
+      "Latent Diffusion",
+      "Print Constraints",
+      "Flexible Packaging",
+      "CMYK Workflow"
+    ]
+  },
+  {
+    "id": "project-2",
+    "title": "RobustSep — Physically-Accurate Colour Separation",
+    "status": "active",
+    "description": "A modular RGB→CMYK+ separation pipeline using learned ink models and spectral prediction. Handles extended gamuts, spot colours, and substrate-specific tuning while maintaining perceptual fidelity.",
+    "keywords": [
+      "Colour Separation",
+      "Spectral Prediction",
+      "Ink Modelling",
+      "Prepress Automation"
+    ]
+  },
+  {
+    "id": "project-3",
+    "title": "Deep RL Halftoning",
+    "status": "active",
+    "description": "Investigating reinforcement learning approaches to adaptive halftoning that optimise dot placement for perceptual quality under varying substrate and ink constraints.",
+    "keywords": [
+      "Reinforcement Learning",
+      "Halftoning",
+      "Perceptual Quality",
+      "Adaptive Screening"
+    ]
+  }
 ]
