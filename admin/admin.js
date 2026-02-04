@@ -227,7 +227,6 @@ function renderNewsList(items) {
 }
 
 function renderPeopleList(data) {
-    document.getElementById('leads-list').innerHTML = renderPersonCards(data.leads, 'lead');
     document.getElementById('fellows-list').innerHTML = renderPersonCards(data.fellows, 'fellow');
     document.getElementById('alumni-list').innerHTML = renderPersonCards(data.alumni || [], 'alumni');
 }
@@ -329,7 +328,7 @@ function editItem(dataType, itemId, subType) {
     let item;
     if (dataType === 'people') {
         const people = currentData.people.items;
-        item = [...people.leads, ...people.fellows, ...(people.alumni || [])].find(p => p.id === itemId);
+        item = [...people.fellows, ...(people.alumni || [])].find(p => p.id === itemId);
         item._subType = subType;
     } else {
         item = currentData[dataType].items.find(i => i.id === itemId);
@@ -379,7 +378,6 @@ function getFormHTML(dataType, item) {
                 <div class="form-group">
                     <label>Type</label>
                     <select id="edit-subtype">
-                        <option value="leads" ${item._subType === 'lead' ? 'selected' : ''}>Research Lead</option>
                         <option value="fellows" ${item._subType === 'fellow' ? 'selected' : ''}>Research Fellow</option>
                         <option value="alumni" ${item._subType === 'alumni' ? 'selected' : ''}>Alumni</option>
                     </select>

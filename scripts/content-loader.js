@@ -39,12 +39,6 @@ const CISL = {
         const data = await this.fetchData('people.json');
         if (!data) return;
 
-        // Render Research Leads
-        const leadsContainer = document.getElementById(leadsId);
-        if (leadsContainer && data.leads) {
-            leadsContainer.innerHTML = data.leads.map(person => this.renderPersonCard(person, false)).join('');
-        }
-
         // Render Research Fellows
         const fellowsContainer = document.getElementById(fellowsId);
         if (fellowsContainer && data.fellows) {
