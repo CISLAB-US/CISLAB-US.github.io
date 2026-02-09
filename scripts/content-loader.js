@@ -35,7 +35,7 @@ const CISL = {
     },
 
     // Load People (for people.html)
-    async loadPeople(leadsId, fellowsId, alumniId) {
+    async loadPeople(fellowsId, alumniId) {
         const data = await this.fetchData('people.json');
         if (!data) return;
 
@@ -183,7 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
             CISL.loadNews('news-content');
             break;
         case 'people.html':
-            CISL.loadPeople('leads-content', 'fellows-content', 'alumni-content');
+            CISL.loadPeople('fellows-content', 'alumni-content');
             break;
         case 'projects.html':
             CISL.loadProjects('projects-content');
