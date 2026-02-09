@@ -1,13 +1,6 @@
 {
   "fellows": [
     {
-      "id": "fellow-1",
-      "name": "Angad Singh Ahuja",
-      "photo": "assets/images/headshots/AngadAhuja_HeadShot.png",
-      "keywords": "Ashoka University · RobustSep, Colour Perception Preservation",
-      "_subType": "fellow"
-    },
-    {
       "id": "fellow-3",
       "name": "Aarush Ram Anandh",
       "photo": "assets/images/headshots/AarushRamAnandh_HeadShot.jpeg",
@@ -67,6 +60,12 @@
       "name": "Poorva Patel",
       "photo": "assets/images/headshots/PoorvaPatel_HeadShot.jpeg",
       "keywords": "University of Cincinnati · Deep-RL Halftoning"
+    },
+    {
+      "id": "fellow-1",
+      "name": "Angad Singh Ahuja",
+      "photo": "assets/images/headshots/AngadAhuja_HeadShot.png",
+      "keywords": "Ashoka University · RobustSep, Colour-Perception Preservation"
     }
   ],
   "alumni": [
