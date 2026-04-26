@@ -37,12 +37,6 @@
       "keywords": "Miranda House, DU · Deep-RL Halftoning"
     },
     {
-      "id": "fellow-9",
-      "name": "Yashvi Prem",
-      "photo": "assets/images/headshots/YashviPrem_HeadShot.png",
-      "keywords": "Miranda House, DU · Deep-RL Halftoning"
-    },
-    {
       "id": "fellow-10",
       "name": "Ananya Das",
       "photo": "assets/images/headshots/AnanyaDas_HeadShot.png",
@@ -98,6 +92,12 @@
       "name": "Poorva Patel",
       "photo": "assets/images/headshots/PoorvaPatel_HeadShot.jpeg",
       "keywords": "University of Cincinnati · Deep-RL Halftoning"
+    },
+    {
+      "id": "fellow-9",
+      "name": "Yashvi Prem",
+      "photo": "assets/images/headshots/YashviPrem_HeadShot.png",
+      "keywords": "Miranda House, DU · Deep-RL Halftoning"
     }
   ]
 }
