@@ -49,12 +49,6 @@
       "keywords": "Manipal University, Jaipur · Deep-RL Halftoning"
     },
     {
-      "id": "fellow-2",
-      "name": "Poorva Patel",
-      "photo": "assets/images/headshots/PoorvaPatel_HeadShot.jpeg",
-      "keywords": "University of Cincinnati · Deep-RL Halftoning"
-    },
-    {
       "id": "fellow-1",
       "name": "Angad Singh Ahuja",
       "photo": "assets/images/headshots/AngadAhuja_HeadShot.png",
@@ -98,6 +92,12 @@
       "name": "Tejaswini Samanta",
       "photo": "assets/images/headshots/TejaswiniSamanta_HeadShot_Alum.png",
       "keywords": "Miranda House, DU · In-painting based Generative Image-Synthesis"
+    },
+    {
+      "id": "fellow-2",
+      "name": "Poorva Patel",
+      "photo": "assets/images/headshots/PoorvaPatel_HeadShot.jpeg",
+      "keywords": "University of Cincinnati · Deep-RL Halftoning"
     }
   ]
 }
