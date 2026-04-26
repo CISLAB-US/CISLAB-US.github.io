@@ -7,12 +7,6 @@
       "keywords": "Miranda House, DU · RobustSep"
     },
     {
-      "id": "fellow-5",
-      "name": "Rushabh Lodha",
-      "photo": "assets/images/headshots/RushabhLodha_HeadShot.png",
-      "keywords": "IIT, Mandi · RobustSep"
-    },
-    {
       "id": "fellow-6",
       "name": "Shreeya Srivastava",
       "photo": "assets/images/headshots/ShreeyaSrivastava_HeadShot.png",
@@ -98,6 +92,12 @@
       "name": "Vishwajeet Daspute",
       "photo": "assets/images/headshots/VishwajeetDaspute_HeadShot.png",
       "keywords": "VIT, Pune · RobustSep"
+    },
+    {
+      "id": "fellow-5",
+      "name": "Rushabh Lodha",
+      "photo": "assets/images/headshots/RushabhLodha_HeadShot.png",
+      "keywords": "IIT, Mandi · RobustSep"
     }
   ]
 }
